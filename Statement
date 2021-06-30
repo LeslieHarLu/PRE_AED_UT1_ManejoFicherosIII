@@ -1,0 +1,51 @@
+##  ACTIVIDAD 3 - Manejo de Ficheros (III). ##
+##############################################
+
+En esta actividad reutilizaremos el programa desarrollado 
+en la actividad 2 pero expandiendo su funcionalidad.
+Lo primero que mostrará nuestro programa ahora será un formulario
+ en el que el usuario podrá realizar las siguientes acciones:
+
+- Escribir Calendario Compacto en FIchero Nuevo : 
+-------------------------------------------------
+Se solicitará mes y día de la semana al usuario, se formará
+ el nombre dl fichero(para Marzo el nombre de fichero: “mes3.txt”),
+se comprobará que el fichero no existe y se procederá a
+escribir el calendario en el fichero en formato compacto:
+
+AGOSTO
+1M 2X 3J 4V 5S 6D 7L…31J
+
+- Escribir Calendario Extendido en FIchero Nuevo : 
+--------------------------------------------------
+Se solicitará mes y día de la semana al usuario, se formará
+el nombre del fichero (para Marzo el nombre de fichero sería “mes3.txt”),
+se comprobará que el fichero no existe y se procederá a
+escribir el calendario en el fichero en formato extendido:
+
+AGOSTO
+L M X J V S D
+- - - 1 2 3 4
+5 6 7 8 9 10 11
+…..
+
+- Escribir Calendario Compacto en FIchero Existente: 
+----------------------------------------------------
+Se creará el nombre de fichero a partir de los datos introducidos 
+por el usuario, y en caso de que no exista el fichero, 
+no se realizará la operación.
+En caso de existir, sobreescribirá el contenido
+en el fichero en formato compacto.
+
+- Escribir Calendario Extendido en FIchero Existente: 
+-----------------------------------------------------
+Igual que el apartado anterior, pero guardando el calendario
+en formato extendido.
+
+- Leer Fichero : 
+----------------
+El usuario introducirá el nombre de un fichero que contenga un
+calendario (compacto o extendido), lo leerá 
+y lo mostrará por en el formulario en el mismo formato.
+Un ejemplo de formulario podría ser
+(Se valorará la originalidad en el formulario)
